@@ -14,8 +14,8 @@ def black_scholes(S, K, T, r, sigma, option_type='call'):
         return K * np.exp(-r * T) * norm.cdf(-d2) - S * norm.cdf(-d1)
 
 # Sidebar
-linkedin_link='https://www.linkedin.com/in/vishal-rao-6a1751220/'
-github_link='https://github.com/i-am-space'
+linkedin_link='https://www.linkedin.com/in/manasi-mundada-89a904205/'
+github_link='https://github.com/manasimundada'
 with st.sidebar:
     st.header("My Links!")
     st.markdown("""
@@ -41,11 +41,11 @@ with st.sidebar:
                 background-color: #e0e0e0;
             }
         </style>
-        <a class="sidebar-link" href="https://github.com/i-am-space" target="_blank">
+        <a class="sidebar-link" href="https://github.com/manasimundada" target="_blank">
             <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30"/>
             <span>GitHub</span>
         </a>
-        <a class="sidebar-link" href="https://www.linkedin.com/in/vishal-rao-6a1751220/" target="_blank">
+        <a class="sidebar-link" href="https://www.linkedin.com/in/manasi-mundada-89a904205/" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="30"/>
             <span>LinkedIn</span>
         </a>
@@ -147,11 +147,11 @@ ax[1].set_ylabel('Volatility',fontsize=20)
 st.pyplot(fig)
 
 # Secret section at the bottom
-with st.expander("What is the Black-Scholes Model?"):
-    st.write("""
-    The Black-Scholes model is a mathematical model for pricing an options contract. The model 
-    assumes that the price of the underlying asset follows a geometric Brownian motion with constant 
-    volatility and that the market is frictionless, meaning there are no transaction costs or taxes.
-    I started this project while learning about options trading and pricing models to better understand
-    how call and put option prices can change when you vary certain parameters. This project idea was
-    heavily inspired from a video on CodingJesus' channel about quant projects.""")
+# with st.expander("What is the Black-Scholes Model?"):
+#     st.write("""
+#     The Black-Scholes model is a mathematical model for pricing an options contract. The model 
+#     assumes that the price of the underlying asset follows a geometric Brownian motion with constant 
+#     volatility and that the market is frictionless, meaning there are no transaction costs or taxes.
+#     I started this project while learning about options trading and pricing models to better understand
+#     how call and put option prices can change when you vary certain parameters. This project idea was
+#     heavily inspired from a video on CodingJesus' channel about quant projects.""")
